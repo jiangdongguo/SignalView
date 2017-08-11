@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <com.jiangdg.singalviewlib.SignalView
+        android:id="@+id/signal_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        custom:signalTypeTextSize="6sp"
+        custom:signalTypeTextColor="@color/colorBlack"
+        custom:signalCount="7"
+        custom:rectBorderWidth="2"
+        custom:signalRectInterval="4"
+        custom:rectBorderColor="@color/colorBlack"
+        custom:signalLowColor="@color/colorRed"
+        custom:signalMiddleColor="@color/colorYellow"
+        custom:signalHighColor="@color/colorGreen"/>
+
+    <com.jiangdg.singalviewlib.SignalView
+        android:id="@+id/signal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:signalTypeTextSize="6sp"
+        custom:signalTypeTextColor="@color/colorRed"
+        android:layout_alignParentTop="true"/>
+</RelativeLayout>

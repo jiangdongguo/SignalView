@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SignalView">
+        <!--信号柱数量-->
+        <attr name="signalCount" format="reference|integer"/>
+        <!--信号柱之间间隔-->
+        <attr name="signalRectInterval" format="integer"/>
+        <!--信号柱边框颜色-->
+        <attr name="rectBorderWidth" format="integer"/>
+        <!--信号柱边框颜色-->
+        <attr name="rectBorderColor" format="reference|color"/>
+        <!--弱信号颜色-->
+        <attr name="signalLowColor" format="reference|color"/>
+        <!--中等信号颜色-->
+        <attr name="signalMiddleColor" format="reference|color"/>
+        <!--强信号颜色-->
+        <attr name="signalHighColor" format="reference|color"/>
+
+        <!--信号类型文字颜色-->
+        <attr name="signalTypeTextColor" format="reference|color"/>
+        <!--信号类型文字大小-->
+        <attr name="signalTypeTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>
