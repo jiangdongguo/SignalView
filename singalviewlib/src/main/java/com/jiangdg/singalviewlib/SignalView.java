@@ -48,16 +48,16 @@ public class SignalView extends View {
         // 信号柱宽度，默认1dp
         mRectBorderWidth = ta.getInt(R.styleable.SignalView_rectBorderWidth,1);
         // 信号柱边框颜色，默认黑色
-        mRectBorderColor = ta.getColor(R.styleable.SignalView_rectBorderColor,Color.BLACK);
+        mRectBorderColor = ta.getColor(R.styleable.SignalView_rectBorderColor,getResources().getColor(R.color.colorBlack));
         // 弱信号颜色，默认红色
-        mSignalLowColor = ta.getColor(R.styleable.SignalView_signalLowColor,Color.RED);
+        mSignalLowColor = ta.getColor(R.styleable.SignalView_signalLowColor,getResources().getColor(R.color.colorRed));
         // 中等信号颜色，默认黄色
-        mSignalMiddleColor = ta.getColor(R.styleable.SignalView_signalMiddleColor,Color.YELLOW);
+        mSignalMiddleColor = ta.getColor(R.styleable.SignalView_signalMiddleColor,getResources().getColor(R.color.colorYellow));
         // 强信号颜色，默认绿色
-        mSignalHighColor = ta.getColor(R.styleable.SignalView_signalHighColor,Color.GREEN);
+        mSignalHighColor = ta.getColor(R.styleable.SignalView_signalHighColor,getResources().getColor(R.color.colorGreen));
 
         // 信号类型文本字体颜色，默认黑色
-        mSignalTypeTextColor = ta.getColor(R.styleable.SignalView_signalTypeTextColor,Color.BLACK);
+        mSignalTypeTextColor = ta.getColor(R.styleable.SignalView_signalTypeTextColor,getResources().getColor(R.color.colorBlack));
         // 信号类型文本字体大小，默认12sp
         mSignalTypeTextSize = ta.getDimension(R.styleable.SignalView_signalTypeTextSize,14);
         ta.recycle();
