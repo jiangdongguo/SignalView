@@ -21,9 +21,18 @@ dependencies {
 }
 ```
 
-**2. 使用方法**
+**2. 使用方法**  
 
-(1) XML文件配置
+(1) Java中设置信号强度和信号类型  
+
+```
+设置信号强度
+mSignalView.setSignalValue(5);
+设置信号类型
+mSignalView.setSignalTypeText("4G");
+```
+
+(2) XML文件配置
 ```
 <com.jiangdg.singalviewlib.SignalView
         android:layout_width="60dp"
@@ -45,14 +54,5 @@ dependencies {
         custom:signalHighColor="@color/colorGreen"/> // 强信号颜色
         ```  
 	
-	
-(2) Java中设置信号强度和信号类型  
-
-```
-设置信号强度
-mSignalView.setSignalValue(5);
-设置信号类型
-mSignalView.setSignalTypeText("4G");
-```
 
  
