@@ -20,7 +20,7 @@
 **2. 使用方法**
 
 (1) XML文件配置
-` <com.jiangdg.singalviewlib.SignalView
+`<com.jiangdg.singalviewlib.SignalView
         android:layout_width="60dp"
         android:layout_height="40dp"
         custom:signalTypeTextSize="8sp"
@@ -37,9 +37,10 @@
         custom:rectBorderColor="@color/colorBlack" // 信号柱边界颜色
         custom:signalLowColor="@color/colorRed" // 弱信号颜色
         custom:signalMiddleColor="@color/colorYellow" // 中等强度信号颜色
-        custom:signalHighColor="@color/colorGreen"/> // 强信号颜色` 
+        custom:signalHighColor="@color/colorGreen"/> // 强信号颜色`  
+	
 (2) Java中设置信号强度和信号类型
-        `// 设置信号强度
+`// 设置信号强度
         mSignalView.setSignalValue(5);
         // 设置信号类型
         mSignalView.setSignalTypeText("4G");`
