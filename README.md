@@ -45,11 +45,13 @@ dependencies {
         custom:signalHighColor="@color/colorGreen"/> // 强信号颜色
         ```  
 	
-(2) Java中设置信号强度和信号类型
+(2) Java中设置信号强度和信号类型  
+
 ```
 // 设置信号强度
-        mSignalView.setSignalValue(5);
-        // 设置信号类型
-        mSignalView.setSignalTypeText("4G");
- ```
+mSignalView.setSignalValue(5);
+// 设置信号类型
+mSignalView.setSignalTypeText("4G");
+```
+
  
