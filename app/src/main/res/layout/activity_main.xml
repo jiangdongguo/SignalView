@@ -10,10 +10,20 @@
     android:paddingTop="@dimen/activity_vertical_margin">
 
     <com.jiangdg.singalviewlib.SignalView
+        android:id="@+id/signal"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        custom:signalTypeTextSize="8sp"
+        custom:signalTypeTextColor="@color/colorBlack"
+        android:layout_centerInParent="true"/>
+
+    <com.jiangdg.singalviewlib.SignalView
         android:id="@+id/signal_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/signal"
+        android:layout_alignLeft="@id/signal"
         custom:signalTypeTextSize="6sp"
         custom:signalTypeTextColor="@color/colorBlack"
         custom:signalCount="7"
@@ -23,12 +33,4 @@
         custom:signalLowColor="@color/colorRed"
         custom:signalMiddleColor="@color/colorYellow"
         custom:signalHighColor="@color/colorGreen"/>
-
-    <com.jiangdg.singalviewlib.SignalView
-        android:id="@+id/signal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        custom:signalTypeTextSize="6sp"
-        custom:signalTypeTextColor="@color/colorRed"
-        android:layout_alignParentTop="true"/>
 </RelativeLayout>

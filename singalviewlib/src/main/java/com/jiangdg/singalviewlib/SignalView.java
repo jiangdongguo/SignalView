@@ -148,6 +148,7 @@ public class SignalView extends View {
             mPaint.setColor(mSignalTypeTextColor);
             mPaint.setTextSize(mSignalTypeTextSize);
             mPaint.setStrokeWidth(1);
+            mPaint.setStyle(Paint.Style.FILL);
             canvas.drawText(signalType,0,mSignalTypeTextSize,mPaint);
         }
 
