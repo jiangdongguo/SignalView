@@ -1,7 +1,7 @@
 # SignalView
 **自定义信号强度显示控件**
 
-![image](http://www.baidu.com/img/bdlogo.gif)
+![image](http://img.blog.csdn.net/20170812115045539?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvQW5kckV4cGVydA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 **1. 添加依赖**
 (1) 在工程build.gradle中添加
@@ -32,9 +32,9 @@ mSignalView.setSignalValue(5);
 mSignalView.setSignalTypeText("4G");
 ```
 
-(2) XML文件配置
-```
-<com.jiangdg.singalviewlib.SignalView
+(2) XML文件配置  
+
+```<com.jiangdg.singalviewlib.SignalView
         android:layout_width="60dp"
         android:layout_height="40dp"
         custom:signalTypeTextSize="8sp"
@@ -51,8 +51,8 @@ mSignalView.setSignalTypeText("4G");
         custom:rectBorderColor="@color/colorBlack" // 信号柱边界颜色
         custom:signalLowColor="@color/colorRed" // 弱信号颜色
         custom:signalMiddleColor="@color/colorYellow" // 中等强度信号颜色
-        custom:signalHighColor="@color/colorGreen"/> // 强信号颜色
-        ```  
+        custom:signalHighColor="@color/colorGreen"/> // 强信号颜色```
+
 	
 
  
